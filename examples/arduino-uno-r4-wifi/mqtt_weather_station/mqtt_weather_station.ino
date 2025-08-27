@@ -5,11 +5,11 @@
 // --- START OF CONFIGURATION ---
 
 // WiFi Settings
-const char* WIFI_SSID = "4G Wi-Fi 3Danmark-1CBA";
-const char* WIFI_PASS = "aircraft";
+const char* WIFI_SSID = "SkyLab Academy";
+const char* WIFI_PASS = "SkyLab_Academy";
 
 // MQTT Broker Settings
-const char* MQTT_SERVER = "192.168.8.104"; // <-- IMPORTANT: Your Raspberry Pi's IP
+const char* MQTT_SERVER = "10.71.106.119"; // Raspberry Pi IP Addresss
 const int   MQTT_PORT = 1883;
 const char* MQTT_TOPIC = "home/livingroom/bme280"; // The topic to publish to
 const char* MQTT_CLIENT_ID = "foo-bar-42-definitely-globally-unique-client-ish"; // A unique client ID
